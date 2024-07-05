@@ -14,15 +14,15 @@ commands, API functions, concepts, configuration file syntax, file formats and i
 
 rm 
 
-![rm man](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/man%20rm.png)
+![rm man](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/man%20rm.png)
 
 rmdir
 
-![rmdir man](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/man%20rmdir.png)
+![rmdir man](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/man%20rmdir.png)
 
 4 - Create the following hierarchy under your home directory ? 
 
-![hierarchy cmd](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/create%20hierarchy.png)
+![hierarchy cmd](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/create%20hierarchy.png)
 
 4.a - Remove dir11 with rmdir in one-step. What did you notice? And how did you
 overcome that?
@@ -53,19 +53,19 @@ relative : docs/mycv
 
 5 - Copy the /etc/passwd file to your home directory making its name is mypasswd ? 
 
-![cp](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/copy.png)
+![cp](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png)
 
 6 - Rename this new file to be oldpasswd ? 
 
-![mv](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/move.png)
+![mv](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
 
 7 - You are in /usr/bin, list four ways to go to your home directory ? 
 
-![home](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/4%20ways%20to%20home.png)
+![home](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
 
 8 - List Linux commands in /usr/bin that start with letter w ? 
 
-![ls w](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/list%20w%20in%20bin.png)
+![ls w](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
 
 9 - What command type are used for (from the slide) ? 
 
@@ -79,11 +79,11 @@ disk of the computer.
 
 10 - Show 2 types of command file in /usr/bin that start with letter c ? 
 
-![ls c](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/list%20c%20in%20bin.png)
+![ls c](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
 
 11 - Using man command find the command to read file. (Note: man take option) ?
 
-![read](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/man%20read.png)
+![read](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
 
 12 - What is the usage of apropos command ?
 
