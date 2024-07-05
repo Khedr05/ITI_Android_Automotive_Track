@@ -1,26 +1,32 @@
 # Linux Admin Task 1
 
 1 - List three Linux Distributions ?
+
 ubuntu, red hut, linux mint
 
 2 - From the slides what is the man command used for ?
+
 System-wide documentation system that provides short reference manuals (pages) for individual
 commands, API functions, concepts, configuration file syntax, file formats and is organized in sections
 (1 for user commands, 2 for system calls...). That's the traditional Unix documentation system.
 
-3 - What is the difference between rm and rmdir using man command?
+3 - What is the difference between rm and rmdir using man command ?
 
 rm 
+
 ![rm man](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/man%20rm.png)
 
 rmdir
+
 ![rmdir man](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/man%20rmdir.png)
 
 4 - Create the following hierarchy under your home directory ? 
+
 ![hierarchy cmd](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/create%20hierarchy.png)
 
 4.a - Remove dir11 with rmdir in one-step. What did you notice? And how did you
 overcome that?
+
 rmdir: failed to remove 'dir11': Directory not empty
 rm -r dir11
 
@@ -68,7 +74,7 @@ disk of the computer.
 
 ![read](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Embedded_Linux/00_AdminLinux_Task1/00_Snip/man%20read.png)
 
-12 - What is the usage of apropos command?
+12 - What is the usage of apropos command ?
 
 The apropos command in Linux is used to search the manual page names and descriptions for keywords. Its primary purpose is to help you find commands related to a particular topic or task by searching through the manual pages (man pages).
 
