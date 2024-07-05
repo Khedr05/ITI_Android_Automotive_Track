@@ -28,18 +28,27 @@ rmdir
 overcome that?
 
 rmdir: failed to remove 'dir11': Directory not empty
+
+what did i notice that rmdir is not allowed to remove not empty directory 
+
+to overcome this you can use rm command with -r option to make it remove recursive antthing in the directory and then the directory
+
 rm -r dir11
 
 4.b - Then remove OldFiles using rmdir –p command. State what happened to the
 hierarchy (Note: you are in your home directory) ?
 
 rmdir -p ~/Documents/oldFiles
+
 rmdir: failed to remove '/home/sherif/Documents/oldFiles': Not a directory
+
+Nothing happen to the directory because oldFiles is a file not a directory
 
 4.c - The output of the command pwd was /home/user. Write the absolute and
 relative path for the file mycv ?
 
 absolute : /home/docs/mycv
+
 relative : docs/mycv
 
 5 - Copy the /etc/passwd file to your home directory making its name is mypasswd ? 
@@ -61,8 +70,10 @@ relative : docs/mycv
 9 - What command type are used for (from the slide) ? 
 
 Alias : are executed before anything else.
+
 Internal Command : is a command that is a part of the shell itself and, as such,
 doesn’t have to be loaded from disk separately.
+
 External command : is a command that exists as an executable file on the
 disk of the computer.
 
