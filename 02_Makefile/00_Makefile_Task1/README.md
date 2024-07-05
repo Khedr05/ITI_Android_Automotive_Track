@@ -109,5 +109,3 @@ make clean
 - If you encounter any issues or need further assistance, please refer to the MSYS2 or Linux documentation or seek help from online communities.
 
 ---
-
-Save this content as `README.md` in your project directory.
