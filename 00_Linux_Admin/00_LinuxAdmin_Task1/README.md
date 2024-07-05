@@ -57,15 +57,15 @@ relative : docs/mycv
 
 6 - Rename this new file to be oldpasswd ? 
 
-![mv](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
+![mv](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png)
 
 7 - You are in /usr/bin, list four ways to go to your home directory ? 
 
-![home](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
+![home](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png)
 
 8 - List Linux commands in /usr/bin that start with letter w ? 
 
-![ls w](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
+![ls w](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png)
 
 9 - What command type are used for (from the slide) ? 
 
@@ -79,11 +79,11 @@ disk of the computer.
 
 10 - Show 2 types of command file in /usr/bin that start with letter c ? 
 
-![ls c](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
+![ls c](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png)
 
 11 - Using man command find the command to read file. (Note: man take option) ?
 
-![read](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png
+![read](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/00_LinuxAdmin_Task1/Snip/copy.png)
 
 12 - What is the usage of apropos command ?
 
