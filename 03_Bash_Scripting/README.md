@@ -1,2 +1,2 @@
 
-#bash script
+#bash script dir
