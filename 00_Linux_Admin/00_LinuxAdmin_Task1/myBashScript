@@ -1,30 +1,20 @@
-[#!/bin/bash]
+#!/bin/bash
 
-# Navigate to the home directory
-cd ~
+# 1. Create a directory called "myDirectory" in your home folder.
+mkdir ~/myDirectory
 
-#Create a directory called "myDirectory" in your home folder.
-mkdir myDirectory
+# 2. Inside "myDirectory," create another directory named "secondDirectory."
+mkdir ~/myDirectory/secondDirectory
 
-# Navigate to the myDirectory directory
-cd myDirectory
+# 3. Within "secondDirectory," create a file named "myNotePaper."
+touch ~/myDirectory/secondDirectory/myNotePaper
 
-# Inside "myDirectory," create another directory named "secondDirectory."
-mkdir secondDirectory
+# 4. Copy "myNotePaper" from "secondDirectory" to "myDirectory."
+cp ~/myDirectory/secondDirectory/myNotePaper ~/myDirectory/
 
-# Navigate to the secondDirectory directory
-cd secondDirectory
+# 5. Rename the copied file in "myDirectory" to "myOldNotePaper."
+mv ~/myDirectory/myNotePaper ~/myDirectory/myOldNotePaper
 
-# Within "secondDirectory," create a file named "myNotePaper."
-touch myNotePaper
-
-# Navigate back to "myDirectory"
-cd ../
-
-# Copy "myNotePaper" from "secondDirectory" to "myDirectory."
-# Rename the copied file in "myDirectory" to "myOldNotePaper."
-cp secondDirectory/myNotePaper myOldNotePaper 
-
-# show the contents of "myDirectory"
-ls
-
+# Optional: Displaying final directory structure for verification
+echo "Final directory structure:"
+tree ~/myDirectory
