@@ -63,14 +63,15 @@ public:
         }
     }
 
-    vector(int c, int* values)
+    vector(int c, std::initializer_list<int> list)
     {
         array = new int[c];
         capacity = c;
-        size = c;
-        for (int i = 0; i < c; i++)
+        int itrator = 0;
+        size = list.size();
+        for (auto listVal : list)
         {
-            array[i] = values[i];
+            array[itrator++] = listVal;
         }
     }
 
@@ -127,8 +128,12 @@ public:
 
     void  popback(void)
     {
-        array[size - 1] = 0;
-        size--;
+        if (size > 0)
+        {
+            array[size - 1] = 0;
+            size--;
+        }
+        else {/*Do Nothing*/ }
     }
 
     void removeAt(int index)
@@ -196,8 +201,7 @@ int main() {
     v3.print();
 
     // Testing constructor with given capacity and initial values
-    int values[] = { 1, 2, 3, 4, 5 };
-    vector v4(5, values);
+    vector v4(10, { 1, 2, 3, 4, 5 });
     std::cout << "Constructor with capacity and initial values test (1, 2, 3, 4, 5):" << std::endl;
     v4.print();
 
