@@ -78,6 +78,12 @@ c. ls /etc/passwd | wc –l ?
 8 - Create a hard link of /etc/passwd in /boot. Could you? Why ?
 
 
+cmd : sudo ln /etc/passwd /boot/passwdHlink
+
+
+Yes, I could create a hard link of /etc/passwd in /boot if I have the necessary privileges, typically through using sudo. Creating a hard link requires write permissions in the target directory, which is /boot in this case. Regular users typically do not have write permissions in system directories like /boot, so sudo is needed to elevate privileges and allow the creation of the hard link.
+
+
 ![h link](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/02_LinuxAdmin_Task3/01_Section2/Snip/ls%20hardlink.png)
 
 
