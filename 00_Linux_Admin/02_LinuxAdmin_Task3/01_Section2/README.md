@@ -108,13 +108,20 @@ NOTE: search the usage of PS1
 Here's what each part of this PS1 variable does:
 
 \u : Username of the current user.
+
 \h : Hostname up to the first ".".
+
 \w : Current working directory.
+
 \t: Current time in 24-hour HH:MM format.
+
 \n: Newline.
+
 \$ : Displays a "$" for a regular user and "#" for root user.
 
+
 [\$(date "+%H:%M:%S")] : Current time in format HH:MM
+
     
 
 
