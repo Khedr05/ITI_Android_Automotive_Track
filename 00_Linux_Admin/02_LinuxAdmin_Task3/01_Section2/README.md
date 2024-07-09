@@ -37,6 +37,7 @@ a - Count the number of user commands ?
 4 - What happens if you execute 
 
 a. cat filename1 | cat filename2 ?
+
 b. ls | rm ?
 
 ls outputs a list of files and directories and rm will attempt to delete them based on that list However ls output includes directory names and other special files which rm cannot handle directly as arguments without specific flags (-r, -f, etc.) Therefore this command would likely result in an error or unexpected behavior
@@ -88,6 +89,9 @@ Notice the prompt ”>” what is that? and how can you change it from “>” t
 
 
 ![ps2](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/02_LinuxAdmin_Task3/01_Section2/Snip/ps2.png)
+
+
+![source](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/02_LinuxAdmin_Task3/01_Section2/Snip/run%20bashrc.png)
 
 
 ![echo ps2](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/00_Linux_Admin/02_LinuxAdmin_Task3/01_Section2/Snip/echo%20ps2.png)
