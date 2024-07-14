@@ -1,0 +1,54 @@
+#!/bin/bash
+
+PS3="Select Option Number : "
+
+# Compiler options
+compilerOptions=("Gcc" "Arm" "Clean")
+
+# Build options
+buildOptions=("StaticLib" "DynamicLib")
+
+compiler=""
+
+# Select compiler option
+select option in "${compilerOptions[@]}"
+do
+    case $option in
+        "Gcc")
+            compiler="gcc"
+            break
+            ;;
+        "Arm")
+            compiler="arm-linux-gnueabihf-gcc"
+            break
+            ;;
+        "Clean")
+            make clean
+            exit 0
+            ;;    
+        *)
+            echo "Invalid option. Please select a valid number."
+            ;;
+    esac
+done
+
+echo "Selected compiler: $compiler"
+
+# Select build option
+select buildOption in "${buildOptions[@]}"
+do
+    case $buildOption in
+        "StaticLib")
+            make static COMPILER="$compiler"
+            break
+            ;;
+        "DynamicLib")
+            make dynamic COMPILER="$compiler"
+            break
+            ;;
+        *)
+            echo "Invalid option. Please select a valid number."
+            ;;
+    esac
+done
+
