@@ -1,17 +1,19 @@
 #include <iostream>
 #include <string>
+#include <string_view>
 
 
-std::string replacementStr(std::string haystack, std::string needle, std::string replacement)
+std::string replacementStr(std::string_view haystack, std::string_view needle, std::string_view replacement)
 {
-    int index = haystack.find(needle);
+    std::string newStr(haystack);
+    int index = newStr.find(needle);
     while (index != std::string::npos)
     {
-        haystack.replace(index, needle.length(), replacement);
-        index = haystack.find(needle, index + 7);
+        newStr.replace(index, needle.length(), replacement);
+        index = newStr.find(needle, index + needle.length());
     }
 
-    return haystack;
+    return newStr;
 }
 
 
@@ -23,5 +25,4 @@ int main(void)
     getline(std::cin, rep);
 
     std::cout << replacementStr(haystack, needle, rep);
-    //std::cout << ret << std::endl;
 }
