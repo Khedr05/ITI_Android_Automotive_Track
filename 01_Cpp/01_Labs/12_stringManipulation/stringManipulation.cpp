@@ -8,7 +8,7 @@ int main(void)
     while (index != std::string::npos)
     {
         text.replace(index, 5, "circle");
-        index = text.find("cycle");
+        index = text.find("cycle", index + 6);
     }
 
     index = text.find("circle");
