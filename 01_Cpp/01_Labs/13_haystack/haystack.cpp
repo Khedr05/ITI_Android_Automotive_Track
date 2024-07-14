@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 
 std::string replacementStr(std::string haystack, std::string needle, std::string replacement)
@@ -6,7 +7,7 @@ std::string replacementStr(std::string haystack, std::string needle, std::string
     int index = haystack.find(needle);
     while (index != std::string::npos)
     {
-        haystack.replace(index, 5, replacement);
+        haystack.replace(index, needle.length(), replacement);
         index = haystack.find(needle, index + 7);
     }
 
@@ -16,7 +17,11 @@ std::string replacementStr(std::string haystack, std::string needle, std::string
 
 int main(void)
 {
-    std::string ret = "";
-    ret = replacementStr("The cycle of life is a cycle of cycles", "cycle", "circle");
-    std::cout << ret << std::endl;
+    std::string haystack, needle, rep;
+    getline(std::cin, haystack);
+    getline(std::cin, needle);
+    getline(std::cin, rep);
+
+    std::cout << replacementStr(haystack, needle, rep);
+    //std::cout << ret << std::endl;
 }
