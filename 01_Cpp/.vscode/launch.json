@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/02_Tasks/02_Sheet3/01_vertexClass",
-      "program": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/02_Tasks/02_Sheet3/01_vertexClass/build/Debug/outDebug",
+      "cwd": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/01_Labs/15_fileReadingWriting",
+      "program": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/01_Labs/15_fileReadingWriting/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
@@ -19,6 +19,32 @@
           "ignoreFailures": true
         }
       ]
+    },
+    {
+      "name": "C/C++: g++.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe build active file"
     }
   ]
 }
