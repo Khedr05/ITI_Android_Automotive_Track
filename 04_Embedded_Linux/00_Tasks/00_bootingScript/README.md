@@ -128,7 +128,7 @@ reset
 To test loading from TFTP, remove files from the SD card.
 
 
-![Command Output](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/00_bootingScript/img/03_setEnvBootcmd.png)
+![Command Output](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/00_bootingScript/img/07_network.png)
 
 
 ## Check if zImage Loaded Successfully in ${kernel_addr_r}
