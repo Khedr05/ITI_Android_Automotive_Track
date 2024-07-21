@@ -1,0 +1,21 @@
+if mmc dev; then
+    echo "SD card detected."
+    if fatload mmc 0:1 ${kernel_addr_r} zImage && fatload mmc 0:1 ${fdt_addr_r} myfile.dtb; then
+        echo "Loaded zImage & myfile.dtb from SD card."
+    else
+        echo "Failed to load zImage or myfile.dtb from SD card."
+        if ping 192.168.1.5; then
+            echo "Loaded file from network via TFTP."
+        else
+            echo "No option available."
+        fi
+    fi
+else
+    echo "No SD card detected."
+    if ping 192.168.1.5; then
+        echo "Loaded file from network via TFTP."
+    else
+        echo "No option available."
+    fi
+fi
+
