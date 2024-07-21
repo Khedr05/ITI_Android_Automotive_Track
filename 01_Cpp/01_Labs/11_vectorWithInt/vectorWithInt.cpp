@@ -147,6 +147,10 @@ public:
 
     void insertAt(int index, int value)
     {
+        if (isFull() == true)
+        {
+            resize();
+        }
         for (int i = size;i > index;i--)
         {
             array[size] = array[size - 1];
@@ -157,6 +161,14 @@ public:
 
     void insertMiddle(int value)
     {
+        if (isFull() == true)
+        {
+            resize();
+        }
+        if (isFull() == true)
+        {
+            resize();
+        }
         int middle = size / 2;
         insertAt(middle, value);
     }
