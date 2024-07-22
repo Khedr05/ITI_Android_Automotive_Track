@@ -1,4 +1,4 @@
-### Readme: Transferring zImage & .dtb Files from Host Server to QEMU via TFTP Protocol
+### Transferring zImage & .dtb Files from Host Server to QEMU via TFTP Protocol
 
 #### Setting Up the Host Server (x86)
 
