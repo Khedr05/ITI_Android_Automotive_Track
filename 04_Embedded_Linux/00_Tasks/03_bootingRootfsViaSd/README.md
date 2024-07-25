@@ -1,4 +1,4 @@
----
+
 ### Booting Kernel from SD with BusyBox
 
 ## 1 - Configuring BusyBox:
