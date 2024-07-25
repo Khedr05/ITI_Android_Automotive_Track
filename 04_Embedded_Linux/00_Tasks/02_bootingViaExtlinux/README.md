@@ -4,7 +4,7 @@
    - Create a directory named `extlinux`.
    - Within this directory, create a file named `extlinux.conf`.
 
-
+   ![Directory Structure](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/02_bootingViaExtlinux/img/00_tree.png)
 
 2. **Configure `extlinux.conf`:**
    - Add the following script to `extlinux.conf` to specify the kernel (`zImage`) and device tree (`vexpress-v2p-ca9.dtb`) files:
@@ -39,6 +39,6 @@
 6. **Verify Boot Process:**
    - Confirm that the board successfully loads the files and starts the kernel:
 
-
+     ![Board Output](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/02_bootingViaExtlinux/img/01_res.png)
 
 ---
