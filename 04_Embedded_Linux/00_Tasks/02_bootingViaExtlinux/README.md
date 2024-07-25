@@ -1,5 +1,3 @@
----
-
 ### Loading Kernel & DTB Files using extlinux.conf & bootflow scan command
 
 1. **Create a Directory and Configuration File:**
