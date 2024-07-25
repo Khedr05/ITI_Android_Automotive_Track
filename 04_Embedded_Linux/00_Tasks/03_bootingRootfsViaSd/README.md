@@ -15,7 +15,8 @@ export ARCH=arm
 export CROSS_COMPILE=~/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-
 ```
 
-1.3 **Configure BusyBox:**
+1.3 **Configure BusyBox**
+
  - Launch menuconfig to configure options:
 
 ```bash
@@ -24,7 +25,9 @@ make menuconfig
 
 1.4 **Adjust Build Process to Static**
 
+
 [Menuconfig Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/00_menuConfig.png) 
+
 
  - save the configuration and exit.
 
@@ -37,7 +40,8 @@ make install
 
 ## 2. Creating and Configuring the Root Filesystem (RootFS)
 
-2.1 **Create the RootFS Directory:**
+2.1 **Create the RootFS Directory**
+
  - Create a directory for the root filesystem:
 
 ```bash
@@ -56,7 +60,9 @@ rsync -a busybox/_install/* rootfs
 mkdir -p rootfs/{boot,dev,etc,home,mnt,proc,root,srv,sys}
 ```
 
+
 [RootFS Directory Structure](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/01_rootfs.png) 
+
 
 2.4 **Create and Configure Startup Script**
 
@@ -159,7 +165,9 @@ tftp $kernel_addr_r zImage
 tftp $fdt_addr_r vexpress-v2p-ca9.dtb
 ```
 
-Refer to the [Loading Files Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/02_loadingFiles.png) for visual guidance.
+
+[Loading Files Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/02_loadingFiles.png)
+
 
 5.5 **Boot the Kernel and DTB File**
 
@@ -167,4 +175,7 @@ Refer to the [Loading Files Screenshot](https://github.com/Khedr05/ITI_Android_A
 bootz $kernel_addr_r - $fdt_addr_r
 ```
 
-Refer to the [Kernel Start Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/03_kernelStart.png) for visual guidance.
+
+[Kernel Start Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/03_kernelStart.png)
+
+
