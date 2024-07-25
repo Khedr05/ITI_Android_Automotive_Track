@@ -11,11 +11,13 @@
    
 
 2. **Configure `extlinux.conf`:**
-   - Add the following script to `extlinux.conf` to specify the kernel (`zImage`) and device tree 	  									(`vexpress-v2p-ca9.dtb`) files:
+   - Add the following script to extlinux.conf to specify the kernel zImage and device tree vexpress-v2p-ca9.dtb files:
+
 
      ```bash
      LABEL booting
              KERNEL ../zImage
-             FDT ../vexpress-v2p-ca9.dtb   
+             FDT ../vexpress-v2p-ca9.dtb 
+      ```         
 
 ---
