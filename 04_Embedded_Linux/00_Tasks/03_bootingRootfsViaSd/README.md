@@ -26,7 +26,7 @@ make menuconfig
 1.4 **Adjust Build Process to Static**
 
 
-[Menuconfig Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/00_menuConfig.png) 
+![Menuconfig Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/00_menuConfig.png) 
 
 
  - save the configuration and exit.
@@ -61,7 +61,7 @@ mkdir -p rootfs/{boot,dev,etc,home,mnt,proc,root,srv,sys}
 ```
 
 
-[RootFS Directory Structure](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/01_rootfs.png) 
+![RootFS Directory Structure](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/01_rootfs.png) 
 
 
 2.4 **Create and Configure Startup Script**
@@ -166,7 +166,7 @@ tftp $fdt_addr_r vexpress-v2p-ca9.dtb
 ```
 
 
-[Loading Files Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/02_loadingFiles.png)
+![Loading Files Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/02_loadingFiles.png)
 
 
 5.5 **Boot the Kernel and DTB File**
@@ -176,6 +176,6 @@ bootz $kernel_addr_r - $fdt_addr_r
 ```
 
 
-[Kernel Start Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/03_kernelStart.png)
+![Kernel Start Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/03_kernelStart.png)
 
 
