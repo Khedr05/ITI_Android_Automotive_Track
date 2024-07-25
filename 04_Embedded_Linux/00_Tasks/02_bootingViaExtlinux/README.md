@@ -25,7 +25,7 @@
      ```
 
 4. **Set `bootcmd` Environment Variable:**
-   - Set the `bootcmd` environment variable to `bootflow scan`:
+
 
      ```bash
      setenv bootcmd bootflow scan
