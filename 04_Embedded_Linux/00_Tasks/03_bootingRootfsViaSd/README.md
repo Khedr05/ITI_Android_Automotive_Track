@@ -1,3 +1,4 @@
+---
 ### Booting Kernel from SD with BusyBox
 
 ## 1 - Configuring BusyBox:
@@ -178,4 +179,4 @@ bootz $kernel_addr_r - $fdt_addr_r
 
 ![Kernel Start Screenshot](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/03_bootingRootfsViaSd/img/03_kernelStart.png)
 
-
+---
