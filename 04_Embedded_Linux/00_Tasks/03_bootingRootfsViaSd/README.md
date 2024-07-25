@@ -15,8 +15,7 @@ export ARCH=arm
 export CROSS_COMPILE=~/x-tools/arm-cortexa9_neon-linux-musleabihf/bin/arm-cortexa9_neon-linux-musleabihf-
 ```
 
-1.3 **Configure BusyBox**
-
+1.3 **Configure BusyBox:**
  - Launch menuconfig to configure options:
 
 ```bash
@@ -38,8 +37,7 @@ make install
 
 ## 2. Creating and Configuring the Root Filesystem (RootFS)
 
-2.1 **Create the RootFS Directory**
-
+2.1 **Create the RootFS Directory:**
  - Create a directory for the root filesystem:
 
 ```bash
