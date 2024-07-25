@@ -9,15 +9,15 @@
    
    ![Directory Structure](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/02_bootingViaExtlinux/img/00_tree.png)
    
+   
 
-2. **Configure `extlinux.conf`:**
-   - Add the following script to extlinux.conf to specify the kernel zImage and device tree vexpress-v2p-ca9.dtb files:
+2. **Configure extlinux.conf:**
+  
 
-
-     ```bash
-     LABEL booting
+    ```bash 
+     	LABEL booting
              KERNEL ../zImage
              FDT ../vexpress-v2p-ca9.dtb 
-      ```         
+    ``` 
 
 ---
