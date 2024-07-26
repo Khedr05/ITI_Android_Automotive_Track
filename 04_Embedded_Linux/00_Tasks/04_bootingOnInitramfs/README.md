@@ -1,5 +1,5 @@
 
-### Booting Kernel from SD with BusyBox
+### Booting Kernel from SD with BusyBox & initramfs
 
 ## 1 - Configuring BusyBox
 
