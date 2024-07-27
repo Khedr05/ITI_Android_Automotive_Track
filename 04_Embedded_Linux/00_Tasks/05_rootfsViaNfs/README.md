@@ -67,11 +67,11 @@ ifconfig
 
 ![Identify IP Address](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/05_rootfsViaNfs/img/06_ifconfig.png)
 
-- My IP address is 192.168.1.11.
+- My IP address is 192.168.1.11
 
-- I will choose 192.168.1.50.
+- I will choose 192.168.1.50
 
-- Verify if 192.168.1.50 is not assigned to any device:
+- Verify if 192.168.1.50 is not assigned to any device
 
 ```bash
 ping 192.168.1.50
