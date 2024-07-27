@@ -19,13 +19,13 @@ read choice
 # Process user input
 case "$choice" in
     1) 
-        echo "You chose to boot with rootfs 1"
+        echo "boot with rootfs 1"
         echo "Changing root file system to partition 2"
         mount -t ext4 /dev/mmcblk0p2 /mnt/root
         chroot /mnt/root /bin/sh
         ;;
     2) 
-        echo "You chose to boot with rootfs 2"
+        echo "boot with rootfs 2"
         echo "Changing root file system to partition 3"
         mount -t ext4 /dev/mmcblk0p3 /mnt/root
         chroot /mnt/root /bin/sh
