@@ -165,7 +165,7 @@ saveenv
 
 ![Boot with Rootfs 1](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/06_dualBootingWithInitramfs/img/06_rootfs1.png)
 
-- As shown in the screenshot, the indicator file created in rootfs1, named helloFromRootfs1, is displayed.
+- As shown in the screenshot, the indicator file created in rootfs1, named `helloFromRootfs1`, is displayed.
 
 #### 10 - Boot with Rootfs 2
 
@@ -173,6 +173,6 @@ saveenv
 
 ![Boot with Rootfs 2](https://github.com/Khedr05/ITI_Android_Automotive_Track/blob/main/04_Embedded_Linux/00_Tasks/06_dualBootingWithInitramfs/img/07_rootfs2.png)
 
-- As shown in the screenshot, the indicator file created in rootfs2, named helloFromRootfs2, is displayed.
+- As shown in the screenshot, the indicator file created in rootfs2, named `helloFromRootfs2`, is displayed.
 
 ---
