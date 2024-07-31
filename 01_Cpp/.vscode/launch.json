@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/01_Labs/16_battleship",
-      "program": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/01_Labs/16_battleship/build/Debug/outDebug",
+      "cwd": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/01_Labs/19_multiThreadedFibonacci",
+      "program": "s:/Android_Automotive/ITI_Android_Automotive_Track/01_Cpp/01_Labs/19_multiThreadedFibonacci/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
