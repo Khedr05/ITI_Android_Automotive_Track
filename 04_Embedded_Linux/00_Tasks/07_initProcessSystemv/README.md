@@ -32,12 +32,12 @@ chmod +x myApp
 #! /bin/sh
 case "$1" in
     start)
-        echo "Starting My Service....."
-        start-stop-daemon -S -n myService -a /bin/myService &
+        echo "Starting My App....."
+        start-stop-daemon -S -n myApp -a /bin/myApp &
         ;;
     kill)
-        echo "Killing My Service....."
-        start-stop-daemon -K -n myService
+        echo "Killing My App....."
+        start-stop-daemon -K -n myApp
         ;;
     *)
         echo "Usage: $0 {start|kill}"
@@ -63,7 +63,7 @@ chmod +x myApp
 #!/bin/sh
 while true
 do
-    echo "Hello Sherif from your service"
+    echo "Hello Sherif from your app"
     sleep 5
 done
 ```
