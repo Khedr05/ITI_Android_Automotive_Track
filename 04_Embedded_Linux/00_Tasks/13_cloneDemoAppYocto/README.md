@@ -1,7 +1,3 @@
-Here is a revised version of your README file with improved organization, spelling, and grammar:
-
----
-
 # Recipe to Clone and Build DemoApp Repo Using CMake
 
 ## 1. Write the Recipe
@@ -70,5 +66,3 @@ bitbake -e gitclonerecipe > expand
 ```
 
 ---
-
-Feel free to adjust any paths or filenames according to your specific setup!
