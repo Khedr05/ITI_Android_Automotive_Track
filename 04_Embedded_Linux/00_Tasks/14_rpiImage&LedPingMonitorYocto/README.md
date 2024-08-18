@@ -58,9 +58,9 @@
 2. Modify the `almaza.conf` file. Include the base configuration file and override necessary settings:
 
    ```bash
-   require path/poky/meta-poky/conf/distro
+   require /home/sherif/embedded_linux/yocto/poky/meta-poky/conf/distro/poky.conf
 
-   DISTRO = "almazaDistro"
+   DISTRO = "almaza"
    DISTRO_VERSION = "1.0"
    MAINTAINER = "Sherif Ashraf <https://github.com/khedr05>"
    ```
@@ -110,8 +110,11 @@
    DL_DIR = "/home/sherif/embedded_linux/yocto/downloads"
    SSTATE_DIR = "/home/sherif/embedded_linux/yocto/sstate"
    ```
-
-7. Configure additional Bluetooth and Wi-Fi settings:
+7. Set the distro to almaza:
+   ```bash
+   DISTRO="almaza"
+   ```
+8. Configure additional Bluetooth and Wi-Fi settings:
 
    ```bash
    IMAGE_INSTALL:append = " \
@@ -166,7 +169,7 @@
    ```
 
 
-8. Content of `local.conf`:
+9. Content of `local.conf`:
 
 ```bash
 
@@ -451,6 +454,7 @@ CONF_VERSION = "2"
 #MY_CONFGURATION
 
 MACHINE = "raspberrypi3-64"
+DISTRO  = "almaza"
 
 IMAGE_FSTYPES = "tar.bz2 ext4 rpi-sdimg"
 
