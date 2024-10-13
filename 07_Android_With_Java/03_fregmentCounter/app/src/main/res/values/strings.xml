@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">fregmentCounter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appName">Counter Fregment</string>
+    <string name="fregmentA">Fregment A</string>
+    <string name="counterBtn">Count</string>
+    <string name="fregmentB">Fregment B</string>
+</resources>
