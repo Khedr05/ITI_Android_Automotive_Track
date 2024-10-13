@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sms</string>
+    <string name="next">Next</string>
+    <string name="close">Close</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="message">Message</string>
+    <string name="Back">Back</string>
+</resources>
