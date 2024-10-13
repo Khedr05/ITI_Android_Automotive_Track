@@ -1,0 +1,4 @@
+javac -d . simplePromptApplication.java 
+java helloworldpack.HelloWorld sherif 
+jar cef helloworldpack.HelloWorld HelloWorld.jar helloworldpack 
+java -jar HelloWorld.jar sherif 
